@@ -4,3 +4,5 @@ This is a README file for the eduanywhere application which is being developed f
 Saintsburg is a Cambridge educational village.
 
 #ACTUAL CODE COMING SOON
+
+Developers of the app are Jodan Alberts and Josua Botha.
