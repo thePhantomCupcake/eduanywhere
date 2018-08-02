@@ -1,5 +1,5 @@
 <template>
-    <v-app light>
+    <v-app dark>
         <v-content>
             <section>
                 <v-parallax src='/images/blackboard-trees.jpg' height="400">
@@ -28,10 +28,10 @@
                 <v-layout
                         column
                         wrap
-                        class="my-3"
+                        class="my-5"
                         align-center
                 >
-                    <v-flex xs12 sm4 class="my-5">
+                    <v-flex xs12 sm4 class="my-3">
                         <div class="text-xs-center">
                             <h2 class="headline">The best way to start developing</h2>
                             <span class="subheading">
@@ -137,7 +137,7 @@
                                 </v-card-text>
                             </v-card>
                         </v-flex>
-                        <v-flex xs12 sm4 offset-sm1>
+                        <v-flex xs12 sm4>
                             <v-card class="elevation-0 transparent">
                                 <v-card-title primary-title class="layout justify-center">
                                     <div class="headline">Contact us</div>
@@ -176,6 +176,19 @@
                     </v-layout>
                 </v-container>
             </section>
+
+            <v-footer class="blue darken-2">
+                <v-layout row wrap align-center>
+                    <v-flex xs12>
+                        <div class="white--text ml-3">
+                            Made with
+                            <v-icon class="red--text">favorite</v-icon>
+                            by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+                            and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+                        </div>
+                    </v-flex>
+                </v-layout>
+            </v-footer>
         </v-content>
     </v-app>
 </template>

@@ -24,37 +24,27 @@
                 </v-list-tile>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar fixed app :clipped-left="clipped">
-            <v-btn
-                    icon
-                    @click.stop="collapseDrawer"
-            >
-                <v-icon v-html="drawer ? 'chevron_left' : 'chevron_right'"></v-icon>
+        <v-toolbar fixed app :clipped-left="true">
+            <v-btn icon
+                   @click.stop="collapseDrawer" >
+                <v-icon v-text="drawer ? 'chevron_left' : 'chevron_right'"></v-icon>
             </v-btn>
             <v-toolbar-title v-text="title"></v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-toolbar-items>
+                <v-btn
+                        flat
+                        @click.stop="collapseDrawer"
+                >
+                    Login
+                </v-btn>
+            </v-toolbar-items>
         </v-toolbar>
         <v-content>
-            <v-container>
-                <nuxt/>
-            </v-container>
+            <nuxt />
         </v-content>
-        <v-navigation-drawer
-                temporary
-                :right="right"
-                v-model="rightDrawer"
-                fixed
-        >
-            <v-list>
-                <v-list-tile @click.native="right = !right">
-                    <v-list-tile-action>
-                        <v-icon light>compare_arrows</v-icon>
-                    </v-list-tile-action>
-                    <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
-                </v-list-tile>
-            </v-list>
-        </v-navigation-drawer>
-        <v-footer :fixed="fixed" app>
-            <span>&copy; 2017</span>
+        <v-footer>
+            <span>Saintsburg EduVillage &copy; 2017</span>
         </v-footer>
     </v-app>
 </template>
@@ -64,11 +54,11 @@
       data () {
         return {
           clipped: true,
-          drawer: true,
+          drawer: false,
           fixed: false,
           items: [
-            {icon: 'apps', title: 'Welcome', to: '/'},
-            {icon: 'bubble_chart', title: 'Inspire', to: '/inspire'}
+            {icon: 'widgets', title: 'Courses', to: '/courses'},
+            {icon: 'info', title: 'About Us', to: '/'}
           ],
           miniVariant: false,
           right: true,
@@ -81,3 +71,9 @@
       }
     }
 </script>
+
+<style>
+    nuxt {
+
+    }
+</style>
