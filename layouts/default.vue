@@ -1,7 +1,6 @@
 <template>
     <v-app dark>
         <v-navigation-drawer
-                :mini-variant.sync="miniVariant"
                 :clipped="clipped"
                 v-model="drawer"
                 fixed
@@ -26,7 +25,7 @@
         </v-navigation-drawer>
         <v-toolbar fixed app :clipped-left="true">
             <v-btn icon
-                   @click.stop="collapseDrawer" >
+                   @click.stop="drawer = !drawer" >
                 <v-icon v-text="drawer ? 'chevron_left' : 'chevron_right'"></v-icon>
             </v-btn>
             <v-toolbar-title v-text="title"></v-toolbar-title>
@@ -34,13 +33,13 @@
             <v-toolbar-items>
                 <v-btn
                         flat
-                        @click.stop="collapseDrawer"
+                        @click.stop="drawer = !drawer"
                 >
                     Login
                 </v-btn>
             </v-toolbar-items>
         </v-toolbar>
-        <v-content>
+        <v-content style="padding-top: 60px; padding-left: 0">
             <nuxt />
         </v-content>
         <v-footer>
@@ -63,17 +62,8 @@
           miniVariant: false,
           right: true,
           rightDrawer: false,
-          title: 'EduAnywhere',
-          collapseDrawer: function () {
-            this.drawer = !this.drawer
-          }
+          title: 'EduAnywhere'
         }
       }
     }
 </script>
-
-<style>
-    nuxt {
-
-    }
-</style>
