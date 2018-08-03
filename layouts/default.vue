@@ -39,9 +39,11 @@
                 </v-btn>
             </v-toolbar-items>
         </v-toolbar>
-        <v-content style="padding-top: 60px; padding-left: 0">
-            <nuxt />
-        </v-content>
+            <v-container fluid>
+                <v-content style="padding-top: 60px; padding-left: 0">
+                    <nuxt />
+                </v-content>
+            </v-container>
         <v-footer>
             <span>Saintsburg EduVillage &copy; 2017</span>
         </v-footer>

@@ -1,28 +1,43 @@
 <template>
     <v-app light>
-        <v-container fluid grid-list-md text-xs-center>
+        <v-container  
+        grid-list-md 
+        text-xs-center 
+        >
             <v-content>
                 <v-layout row wrap>
-                    <v-flex xs4>
-                        <v-card class="theme--light">
+                    <v-flex xs12 sm6 md4 lg3 >
+                        <v-card 
+                        class="theme--light white--text"
+                        color="blue darken-4"
+                    >
+                            <v-card-title primary-title>
+                                <h2>Chemistry</h2>
+                            </v-card-title>
                             <v-card-text class="px-0">Hello World</v-card-text>
                         </v-card>
                     </v-flex>
 
-                    <v-flex xs4>
-                        <v-card class="theme--light">
+                    <v-flex xs12 sm6 md4 lg3>
+                        <v-card 
+                        class="theme--light white--text"
+                        color="blue darken-3"
+                        >
+                            <v-card-title primary-title>
+                                <h2>Physics</h2>
+                            </v-card-title>
                             <v-card-text class="px-0">Hello World</v-card-text>
                         </v-card>
                     </v-flex>
 
-                    <v-flex xs4>
-                        <v-card class="theme--light">
-                            <v-card-text class="px-0">Hello World</v-card-text>
-                        </v-card>
-                    </v-flex>
-
-                    <v-flex xs4>
-                        <v-card class="theme--light">
+                    <v-flex xs12 sm6 md4 lg3>
+                        <v-card 
+                        class="theme--light white--text"
+                        color="blue darken-2"
+                        >
+                            <v-card-title primary-title>
+                                <h2>Biology</h2>
+                            </v-card-title>
                             <v-card-text class="px-0">Hello World</v-card-text>
                         </v-card>
                     </v-flex>
