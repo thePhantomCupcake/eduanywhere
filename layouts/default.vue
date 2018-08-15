@@ -3,6 +3,7 @@
         <v-navigation-drawer
                 :clipped="clipped"
                 v-model="drawer"
+                temporary
                 fixed
                 app
         >
@@ -23,17 +24,18 @@
                 </v-list-tile>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar fixed app :clipped-left="true">
+        <v-toolbar app :clipped-left="true" :clipped-right="true">
             <v-btn icon
-                   @click.stop="drawer = !drawer" >
+                   @click.stop="drawer = !drawer">
                 <v-icon v-text="drawer ? 'chevron_left' : 'chevron_right'"></v-icon>
             </v-btn>
-            <v-toolbar-title v-text="title"></v-toolbar-title>
+            <img src="../static/images/EduAnywhereLogo.png" :alt="title" height="90%"/>
             <v-spacer></v-spacer>
             <v-toolbar-items>
                 <v-btn
                         flat
                         @click.stop="drawer = !drawer"
+                        v-if="!loggedIn"
                 >
                     Login
                 </v-btn>
@@ -41,7 +43,7 @@
         </v-toolbar>
             <v-container fluid>
                 <v-content style="padding-top: 60px; padding-left: 0">
-                    <nuxt />
+                    <nuxt/>
                 </v-content>
             </v-container>
         <v-footer>
@@ -64,7 +66,8 @@
           miniVariant: false,
           right: true,
           rightDrawer: false,
-          title: 'EduAnywhere'
+          title: 'EduAnywhere',
+          loggedIn: false
         }
       }
     }

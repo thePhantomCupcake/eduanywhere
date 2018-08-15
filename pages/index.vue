@@ -2,14 +2,14 @@
     <v-app light>
         <v-content>
             <section>
-                <v-parallax src='\images\ariplane-clouds-croped-resized3.jpg' height="400">
+                <v-parallax src='/images/airplane-clouds-cropped-resized3.jpg' height="400">
                     <v-layout
                             column
                             align-right
                             justify-center
                             class="white--text"
                     >
-                        <h1 
+                        <h1
                         class="black--text mb-2 display-3"
                         >Edu Anywhere</h1>
                         <div class="subheading mb-3 black--text">Cambridge education you can take from anywhere, that can take you anywhere.</div>
@@ -119,10 +119,10 @@
                                     <div class="headline">About Us</div>
                                 </v-card-title>
                                 <v-card-text class="black--text">
-                                    Saintsburg Edu-Village is a learning hub offering tutoring services and online education tools 
-                                    for those who want to excel in their education. We support British GCSE, AS and A-Level 
-                                    qualifications which is accepted throughout the world and preferred by the best Universities. 
-                                    EduAnywhere is aWebsite App guiding students through the GCSE and AS curriculae with reference 
+                                    Saintsburg Edu-Village is a learning hub offering tutoring services and online education tools
+                                    for those who want to excel in their education. We support British GCSE, AS and A-Level
+                                    qualifications which is accepted throughout the world and preferred by the best Universities.
+                                    EduAnywhere is aWebsite App guiding students through the GCSE and AS curriculae with reference
                                     to the relevant text books and with the help of actual exam questions.
                                 </v-card-text>
                             </v-card>

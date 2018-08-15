@@ -11,7 +11,8 @@ import {
   VGrid,
   VToolbar,
   VParallax,
-  VCarousel
+  VCarousel,
+  VStepper
 } from 'vuetify'
 
 Vue.use(Vuetify, {
@@ -26,6 +27,7 @@ Vue.use(Vuetify, {
     VGrid,
     VToolbar,
     VParallax,
-    VCarousel
+    VCarousel,
+    VStepper
   }
 })
