@@ -34,7 +34,7 @@
             <v-toolbar-items>
                 <v-btn
                         flat
-                        @click.stop="drawer = !drawer"
+                        href="/login"
                         v-if="!loggedIn"
                 >
                     Login
@@ -60,7 +60,9 @@
           drawer: false,
           fixed: false,
           items: [
+            {icon: 'trending_up', title: 'Stats', to: '/stats'},
             {icon: 'widgets', title: 'Courses', to: '/courses'},
+            {icon: 'person', title: 'My Account', to: '/account'},
             {icon: 'info', title: 'About Us', to: '/'}
           ],
           miniVariant: false,

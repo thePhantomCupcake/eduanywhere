@@ -19,7 +19,6 @@
 
         <v-stepper-step editable step="4">Chemistry Stuff</v-stepper-step>
 
-
         <v-stepper-step editable step="5">View setup instructions</v-stepper-step>
 
         <v-stepper-step editable step="6">View setup instructions</v-stepper-step>
