@@ -12,7 +12,11 @@ import {
   VToolbar,
   VParallax,
   VCarousel,
-  VStepper
+  VStepper,
+  VForm,
+  VTextField,
+  VProgressLinear,
+  VProgressCircular
 } from 'vuetify'
 
 Vue.use(Vuetify, {
@@ -28,6 +32,10 @@ Vue.use(Vuetify, {
     VToolbar,
     VParallax,
     VCarousel,
-    VStepper
+    VStepper,
+    VForm,
+    VTextField,
+    VProgressLinear,
+    VProgressCircular
   }
 })
