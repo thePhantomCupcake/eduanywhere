@@ -6,7 +6,7 @@
                 temporary
                 fixed
                 app
-        >
+        > 
             <v-list>
                 <v-list-tile
                         router

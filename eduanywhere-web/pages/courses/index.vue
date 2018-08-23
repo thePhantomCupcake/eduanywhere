@@ -9,10 +9,10 @@
           <v-flex xs12 sm6 md4 lg3>
             <v-card
                 class="theme--light white--text"
-                color="blue darken-4"
+                color="red darken-1"
                 href="courses/chemistry"
                 hover
-            >
+            > 
               <v-card-title primary-title>
                 <h2>Chemistry</h2>
               </v-card-title>
@@ -23,7 +23,7 @@
           <v-flex xs12 sm6 md4 lg3>
             <v-card
                 class="theme--light white--text"
-                color="blue darken-3"
+                color="blue darken-1"
                 href="courses/inspire"
                 hover
             >
@@ -37,7 +37,7 @@
           <v-flex xs12 sm6 md4 lg3>
             <v-card
                 class="theme--light white--text"
-                color="blue darken-2"
+                color="green darken-1"
                 href="courses/inspire"
                 hover
             >

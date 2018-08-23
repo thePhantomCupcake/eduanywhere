@@ -16,7 +16,9 @@ import {
   VForm,
   VTextField,
   VProgressLinear,
-  VProgressCircular
+  VProgressCircular,
+  VDataTable,
+  VExpansionPanel
 } from 'vuetify'
 
 Vue.use(Vuetify, {
@@ -36,6 +38,8 @@ Vue.use(Vuetify, {
     VForm,
     VTextField,
     VProgressLinear,
-    VProgressCircular
+    VProgressCircular,
+    VDataTable,
+    VExpansionPanel
   }
 })
