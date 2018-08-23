@@ -140,16 +140,17 @@
           <v-flex xs12 sm12 md6 lg6>
             <v-card
                 class="theme--light white--text"
-                color="green darken-1"
+                color="green darken-2"
                 hover
-                style="margin: 10px margin-left: 5px"
+                style="margin: 10px; margin-right: 5px"
             > 
               <v-card-title primary-title>
                 <h2>Payment Status</h2>
               </v-card-title>
-              <v-card-text class="px-0">All Payments Up To Date</v-card-text>
+              <v-card-text class="px-0">All Payments Are Up To Date</v-card-text>
             </v-card>
           </v-flex>
+          
         </v-layout>
         </v-card>
     </v-flex>
