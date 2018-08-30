@@ -130,7 +130,7 @@
                 color="blue darken-2"
                 hover
                 style="margin: 10px; margin-right: 5px"
-            > 
+            >
               <v-card-title primary-title>
                 <h2>Payfast</h2>
               </v-card-title>
@@ -143,14 +143,14 @@
                 color="green darken-2"
                 hover
                 style="margin: 10px; margin-right: 5px"
-            > 
+            >
               <v-card-title primary-title>
                 <h2>Payment Status</h2>
               </v-card-title>
               <v-card-text class="px-0">All Payments Are Up To Date</v-card-text>
             </v-card>
           </v-flex>
-          
+
         </v-layout>
         </v-card>
     </v-flex>
