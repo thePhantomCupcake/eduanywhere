@@ -64,8 +64,9 @@
         </v-list>
       
         <v-card-title class="Black--text pl-5 pt-5">
-            <div class="display-1 pl-0">Courses</div>
+            <div class="display-1 pl-0">My Courses</div>
         </v-card-title>
+        
         <v-list>
             <v-list-tile @click="chemistryChecked = !chemistryChecked">
                 <v-list-tile-action>
@@ -123,7 +124,7 @@
         <v-card-title class="Black--text pl-5 pt-5">
             <div class="display-1 pl-0">Payment Details &amp; Status</div>
         </v-card-title>
-        <v-layout text-xs-center>
+        <v-layout text-xs-center wrap>
           <v-flex xs12 sm12 md6 lg6>
             <v-card
                 class="theme--light white--text"
@@ -145,12 +146,11 @@
                 style="margin: 10px; margin-right: 5px"
             > 
               <v-card-title primary-title>
-                <h2>Payment Status</h2>
+                <h2>Payment History</h2>
               </v-card-title>
               <v-card-text class="px-0">All Payments Are Up To Date</v-card-text>
             </v-card>
           </v-flex>
-          
         </v-layout>
         </v-card>
     </v-flex>
