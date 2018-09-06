@@ -1,5 +1,5 @@
 <template>
-    <v-app light>
+    <v-app dark>
         <v-content>
             <section>
                 <v-parallax src='/images/airplane-clouds-cropped-resized3.jpg' height="400">
@@ -10,7 +10,7 @@
                             class="white--text"
                     >
                         <h1
-                        class="black--text mb-2 display-3"
+                        class="white--text mb-2 display-3"
                         >Edu Anywhere</h1>
                         <div class="subheading mb-3 black--text">Cambridge education you can take from anywhere, that can take you anywhere.</div>
                     </v-layout>
@@ -38,9 +38,9 @@
                                             <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
                                         </v-card-text>
                                         <v-card-title primary-title class="layout justify-center">
-                                            <div class="headline text-xs-center black--text">Material Design</div>
+                                            <div class="headline text-xs-center white--text">Material Design</div>
                                         </v-card-title>
-                                        <v-card-text class="black--text">
+                                        <v-card-text class="white--text">
                                             Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt
                                             ornare.
                                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames
@@ -56,9 +56,9 @@
                                             <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
                                         </v-card-text>
                                         <v-card-title primary-title class="layout justify-center">
-                                            <div class="headline black--text">Fast development</div>
+                                            <div class="headline white--text">Fast development</div>
                                         </v-card-title>
-                                        <v-card-text class="black--text">
+                                        <v-card-text class="white--text">
                                             Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt
                                             ornare.
                                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames
@@ -74,9 +74,9 @@
                                             <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                                         </v-card-text>
                                         <v-card-title primary-title class="layout justify-center">
-                                            <div class="headline text-xs-center black--text">Completely Open Sourced</div>
+                                            <div class="headline text-xs-center white--text">Completely Open Sourced</div>
                                         </v-card-title>
-                                        <v-card-text class="black--text">
+                                        <v-card-text class="white--text">
                                             Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt
                                             ornare.
                                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames
@@ -95,11 +95,11 @@
             <section>
                 <v-parallax src="/images/section.jpg" height="380">
                     <v-layout column align-center justify-center>
-                        <div class="headline white--text mb-3 text-xs-center black--text">Studying independantly has never been easier
+                        <div class="headline white--text mb-3 text-xs-center white--text">Studying independantly has never been easier
                         </div>
                         <em>Kick-start your learning process now</em>
                         <v-btn
-                                class="blue lighten-2 mt-5 black--text"
+                                class="blue lighten-2 mt-5 white--text"
                                 dark
                                 large
                                 href="/pre-made-themes"
@@ -115,10 +115,10 @@
                     <v-layout row wrap justify-center class="my-5">
                         <v-flex xs12 sm4>
                             <v-card class="elevation-0 transparent">
-                                <v-card-title primary-title class="layout justify-center black--text">
+                                <v-card-title primary-title class="layout justify-center white--text">
                                     <div class="headline">About Us</div>
                                 </v-card-title>
-                                <v-card-text class="black--text">
+                                <v-card-text class="white--text">
                                     Saintsburg Edu-Village is a learning hub offering tutoring services and online education tools
                                     for those who want to excel in their education. We support British GCSE, AS and A-Level
                                     qualifications which is accepted throughout the world and preferred by the best Universities.
@@ -130,18 +130,18 @@
                         <v-flex xs12 sm4 offset-sm1>
                             <v-card class="elevation-0 transparent">
                                 <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline black--text">Contact us</div>
+                                    <div class="headline white--text">Contact us</div>
                                 </v-card-title>
-                                <v-card-text class="black--text">
+                                <v-card-text class="white--text">
                                     We are based in South Africa, but we serve the needs of students worldwide.
                                 </v-card-text>
                                 <v-list class="transparent">
                                     <v-list-tile>
                                         <v-list-tile-action>
-                                            <v-icon class="blue--text text--lighten-2 black--text">phone</v-icon>
+                                            <v-icon class="blue--text text--lighten-2 white--text">phone</v-icon>
                                         </v-list-tile-action>
                                         <v-list-tile-content>
-                                            <v-list-tile-title class="black--text">not available</v-list-tile-title>
+                                            <v-list-tile-title class="white--text">not available</v-list-tile-title>
                                         </v-list-tile-content>
                                     </v-list-tile>
                                     <v-list-tile>
@@ -149,7 +149,7 @@
                                             <v-icon class="blue--text text--lighten-2">place</v-icon>
                                         </v-list-tile-action>
                                         <v-list-tile-content>
-                                            <v-list-tile-title class="black--text" >Pretoria, SA</v-list-tile-title>
+                                            <v-list-tile-title class="white--text" >Pretoria, SA</v-list-tile-title>
                                         </v-list-tile-content>
                                     </v-list-tile>
                                     <v-list-tile>
@@ -157,7 +157,7 @@
                                             <v-icon class="blue--text text--lighten-2">email</v-icon>
                                         </v-list-tile-action>
                                         <v-list-tile-content>
-                                            <v-list-tile-title class="black--text">info@saintsburg.co.za</v-list-tile-title>
+                                            <v-list-tile-title class="white--text">info@saintsburg.co.za</v-list-tile-title>
                                         </v-list-tile-content>
                                     </v-list-tile>
                                 </v-list>

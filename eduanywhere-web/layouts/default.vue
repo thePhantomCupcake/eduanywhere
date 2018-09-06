@@ -1,5 +1,5 @@
 <template>
-    <v-app light>
+    <v-app dark>
         <v-navigation-drawer
                 :clipped="clipped"
                 v-model="drawer"

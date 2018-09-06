@@ -1,5 +1,5 @@
 <template>
-  <v-app light>
+  <v-app dark>
     <v-container
         grid-list-md
         text-xs-center
@@ -41,19 +41,20 @@
             wrap
         >
         <v-card-title style="padding-left: 50px;" primary-title>
-              <h2>Mini Test Results</h2>
+              <h2>Chapter Test Results</h2>
         </v-card-title>
             <v-layout row wrap>
               <v-flex xs12>
-                <v-expansion-panel inset>
+                <v-expansion-panel inset light>
                   <v-expansion-panel-content>
                     <div slot="header" style="padding: 10px">Show All Results</div>
                     <v-flex style="padding-left: 20px; padding-right: 20px">
-                      <v-card>
+                      <v-card light>
                         <v-data-table
                           :headers="headers"
                           :items="testResults"
                           hide-actions
+                          light
                         >
                               <template slot="items" slot-scope="props">
                                   <td>{{ props.item.name }}</td>
@@ -111,19 +112,20 @@
             wrap
         >
         <v-card-title style="padding-left: 50px;" primary-title>
-              <h2>Past Paper Results</h2>
+              <h2>Exam Prep Test Results</h2>
         </v-card-title>
             <v-layout row wrap>
                 <v-flex xs12>
-                <v-expansion-panel inset>
+                <v-expansion-panel inset light>
                   <v-expansion-panel-content>
                     <div slot="header" style="padding: 10px">Show All Results</div>
                       <v-flex style="padding-left: 20px; padding-right: 20px">
-                      <v-card>
+                      <v-card light>
                         <v-data-table
                           :headers="headers"
                           :items="testResults"
                           hide-actions
+                          light
                         >
                               <template slot="items" slot-scope="props">
                                   <td>{{ props.item.name }}</td>
